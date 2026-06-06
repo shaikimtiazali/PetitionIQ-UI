@@ -1,0 +1,3974 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO: Title & Meta -->
+    <title>
+      PetitionIQ — AI-Powered EB-1A, NIW & O-1A Evaluation | Free Assessment
+    </title>
+    <meta
+      name="description"
+      content="Free AI-powered EB-1A, NIW & O-1A evaluation. Map credentials to USCIS criteria before filing. Attorney-supervised. No legal advice."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://petitioniq.ai/" />
+
+    <!-- SEO: Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://petitioniq.ai/" />
+    <meta
+      property="og:title"
+      content="PetitionIQ — AI-Powered Immigration Evaluation"
+    />
+    <meta
+      property="og:description"
+      content="Free AI-powered EB-1A, NIW & O-1A evaluation. Map credentials to USCIS criteria before filing. Attorney-supervised. No legal advice."
+    />
+    <meta property="og:image" content="https://petitioniq.ai/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="PetitionIQ" />
+
+    <!-- SEO: Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="PetitionIQ — AI-Powered Immigration Evaluation"
+    />
+    <meta
+      name="twitter:description"
+      content="Free AI-powered EB-1A, NIW & O-1A evaluation. Map credentials to USCIS criteria before filing. Attorney-supervised. No legal advice."
+    />
+    <meta name="twitter:image" content="https://petitioniq.ai/og-image.png" />
+
+    <!-- Fonts: preconnect prevents render-blocking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Cloudflare Web Analytics — privacy-preserving, no cookie consent required -->
+    <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token":"YOUR_TOKEN"}'></script> -->
+
+    <!-- SEO: JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "PetitionIQ",
+        "applicationCategory": "LegalService",
+        "description": "Free AI-powered evaluation for EB-1A, EB-2 NIW, and O-1A visa petitions. Map your credentials to USCIS criteria before filing.",
+        "url": "https://petitioniq.ai/",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free Stage A AI Evaluation"
+        },
+        "creator": {
+          "@type": "Person",
+          "name": "Khushboo Jain",
+          "jobTitle": "Founder & Employment-Based Immigration Specialist",
+          "url": "https://petitioniq.ai/"
+        }
+      }
+    </script>
+
+    <style>
+      /* ═══════════════════════════════════════
+   BRAND TOKENS — PetitionIQ 2026
+═══════════════════════════════════════ */
+      :root {
+        --navy: #0f2a4f;
+        --navy-deep: #081a34;
+        --navy-mid: #163860;
+        --gold: #c59c38;
+        --gold-light: #d9b55a;
+        --gold-pale: #f9f0dc;
+        --gray-bg: #f2f4f7;
+        --gray-bdr: #cccccc;
+        --gray-mid: #8a8f99;
+        --gray-dark: #4a4e57;
+        --text: #1a1a1a;
+        --white: #ffffff;
+        --green: #1e6b3a;
+        --green-bg: #eaf5ee;
+        --warn: #7a4f00;
+        --warn-bg: #fff4dc;
+        --sy: 88px;
+        --r-sm: 5px;
+        --r-md: 10px;
+        --r-lg: 16px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color: var(--text);
+        background: var(--white);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      .container {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 40px;
+      }
+      .serif {
+        font-family: "Playfair Display", serif;
+      }
+      .h2 {
+        font-family: "Playfair Display", serif;
+        font-size: clamp(22px, 3vw, 34px);
+        font-weight: 600;
+        line-height: 1.2;
+        color: var(--navy);
+      }
+      .eyebrow {
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 14px;
+      }
+      .eyebrow-lt {
+        color: var(--gold-light);
+      }
+      .gold-rule {
+        width: 44px;
+        height: 3px;
+        background: var(--gold);
+        border-radius: 2px;
+        margin-bottom: 24px;
+      }
+      .lead {
+        font-size: 16px;
+        font-weight: 300;
+        color: var(--gray-dark);
+        line-height: 1.75;
+        max-width: 540px;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 13px 26px;
+        border-radius: var(--r-sm);
+        cursor: pointer;
+        border: none;
+        transition: all 0.2s;
+        white-space: nowrap;
+      }
+      .btn-gold {
+        background: var(--gold);
+        color: var(--navy-deep);
+      }
+      .btn-gold:hover {
+        background: var(--gold-light);
+        box-shadow: 0 6px 20px rgba(197, 156, 56, 0.3);
+        transform: translateY(-1px);
+      }
+      .btn-navy {
+        background: var(--navy);
+        color: var(--white);
+      }
+      .btn-navy:hover {
+        background: var(--navy-mid);
+      }
+      .btn-ghost {
+        background: transparent;
+        color: var(--white);
+        border: 1.5px solid rgba(255, 255, 255, 0.35);
+      }
+      .btn-ghost:hover {
+        border-color: var(--white);
+        background: rgba(255, 255, 255, 0.07);
+      }
+      .btn-outline {
+        background: transparent;
+        color: var(--navy);
+        border: 1.5px solid var(--navy);
+      }
+      .btn-outline:hover {
+        background: var(--navy);
+        color: var(--white);
+      }
+
+      .section {
+        padding: var(--sy) 0;
+      }
+      .sec-gray {
+        background: var(--gray-bg);
+      }
+      .sec-navy {
+        background: var(--navy);
+      }
+      .sec-deep {
+        background: var(--navy-deep);
+      }
+
+      .sec-hdr {
+        margin-bottom: 52px;
+      }
+      .sec-hdr.center {
+        text-align: center;
+      }
+      .sec-hdr.center .gold-rule {
+        margin: 0 auto 24px;
+      }
+      .sec-hdr.center .lead {
+        margin: 14px auto 0;
+      }
+
+      .fade-up {
+        opacity: 0;
+        transform: translateY(22px);
+        transition:
+          opacity 0.55s ease,
+          transform 0.55s ease;
+      }
+      .fade-up.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .d1 {
+        transition-delay: 0.1s;
+      }
+      .d2 {
+        transition-delay: 0.2s;
+      }
+      .d3 {
+        transition-delay: 0.3s;
+      }
+      .d4 {
+        transition-delay: 0.4s;
+      }
+
+      /* ── SKIP LINK ── */
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+      }
+      .skip-link:focus {
+        left: 12px;
+        top: 12px;
+        width: auto;
+        height: auto;
+        padding: 8px 16px;
+        background: var(--navy);
+        color: var(--white);
+        border-radius: 4px;
+        z-index: 9999;
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      /* ── COOKIE ── */
+      #cookie-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background: var(--navy-deep);
+        border-top: 2px solid var(--gold);
+        padding: 14px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      #cookie-bar p {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.65);
+        line-height: 1.6;
+        flex: 1;
+        min-width: 260px;
+      }
+      #cookie-bar a {
+        color: var(--gold);
+        text-decoration: underline;
+      }
+      .cookie-btns {
+        display: flex;
+        gap: 10px;
+        flex-shrink: 0;
+      }
+      .c-btn {
+        font-family: "Inter", sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 9px 18px;
+        border-radius: var(--r-sm);
+        cursor: pointer;
+        border: none;
+      }
+      .c-accept {
+        background: var(--gold);
+        color: var(--navy-deep);
+      }
+      .c-decline {
+        background: transparent;
+        color: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      .c-decline:hover {
+        color: var(--white);
+        border-color: rgba(255, 255, 255, 0.4);
+      }
+
+      /* ── NAV ── */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 200;
+        background: rgba(8, 26, 52, 0.96);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid rgba(197, 156, 56, 0.15);
+      }
+      .nav-in {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 66px;
+      }
+      .logo {
+        display: flex;
+        align-items: baseline;
+        gap: 2px;
+      }
+      .logo-word {
+        font-family: "Playfair Display", serif;
+        font-size: 21px;
+        font-weight: 700;
+        color: var(--white);
+        letter-spacing: 0.02em;
+      }
+      .logo-tld {
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--gold);
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        list-style: none;
+      }
+      .nav-links a {
+        font-size: 12px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.65);
+        letter-spacing: 0.04em;
+        transition: color 0.2s;
+      }
+      .nav-links a:hover {
+        color: var(--white);
+      }
+      .nav-ham {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+      }
+
+      /* ── HERO ── */
+      .hero {
+        min-height: 100vh;
+        background: var(--navy-deep);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 66px;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(197, 156, 56, 0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(197, 156, 56, 0.04) 1px, transparent 1px);
+        background-size: 56px 56px;
+      }
+      .glow {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+      }
+      .glow-a {
+        width: 560px;
+        height: 560px;
+        top: -120px;
+        right: -80px;
+        background: radial-gradient(
+          circle,
+          rgba(197, 156, 56, 0.07) 0%,
+          transparent 70%
+        );
+      }
+      .glow-b {
+        width: 340px;
+        height: 340px;
+        bottom: -80px;
+        left: 8%;
+        background: radial-gradient(
+          circle,
+          rgba(30, 77, 128, 0.4) 0%,
+          transparent 70%
+        );
+      }
+      .hero-in {
+        position: relative;
+        z-index: 1;
+        padding: 80px 0;
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 72px;
+        align-items: center;
+      }
+      .hero-disp {
+        font-family: "Playfair Display", serif;
+        font-size: clamp(38px, 5vw, 64px);
+        font-weight: 600;
+        line-height: 1.07;
+        letter-spacing: -0.01em;
+        color: var(--white);
+      }
+      .hero-disp em {
+        font-style: italic;
+        color: var(--gold-light);
+        display: block;
+      }
+      .hero-body {
+        font-size: 16px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.8;
+        max-width: 460px;
+        margin: 18px 0 0;
+      }
+      .hero-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        margin: 20px 0 28px;
+      }
+      .tag {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--gold);
+        background: rgba(197, 156, 56, 0.1);
+        border: 1px solid rgba(197, 156, 56, 0.22);
+        border-radius: 3px;
+        padding: 4px 10px;
+      }
+      .hero-btns {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      /* Hero panel */
+      .sp {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(197, 156, 56, 0.18);
+        border-radius: var(--r-lg);
+        overflow: hidden;
+      }
+      .sp-bar {
+        background: rgba(197, 156, 56, 0.1);
+        border-bottom: 1px solid rgba(197, 156, 56, 0.18);
+        padding: 11px 18px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .sp-dots {
+        display: flex;
+        gap: 5px;
+      }
+      .sp-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+      .sp-caption {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.35);
+        margin-left: 8px;
+      }
+      .sp-body {
+        padding: 22px;
+      }
+      .sp-row {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      }
+      .sp-row:last-child {
+        border-bottom: none;
+      }
+      .sp-badge {
+        min-width: 36px;
+        height: 36px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Playfair Display", serif;
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .ba {
+        background: rgba(197, 156, 56, 0.15);
+        color: var(--gold);
+      }
+      .bb1 {
+        background: rgba(30, 107, 58, 0.15);
+        color: #5ec472;
+      }
+      .bb2 {
+        background: rgba(30, 77, 128, 0.25);
+        color: #7faadd;
+      }
+      .bb3 {
+        background: rgba(255, 255, 255, 0.07);
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .sp-name {
+        font-size: 12px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 2px;
+      }
+      .sp-desc {
+        font-size: 10px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.4);
+        line-height: 1.4;
+      }
+      .sp-price {
+        margin-left: auto;
+        font-size: 10px;
+        font-weight: 700;
+        color: var(--gold);
+        white-space: nowrap;
+      }
+
+      /* ── TRUST BAR ── */
+      .trust-bar {
+        background: var(--gray-bg);
+        border-bottom: 1px solid var(--gray-bdr);
+        padding: 16px 0;
+      }
+      .trust-in {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 36px;
+        flex-wrap: wrap;
+      }
+      .t-item {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+      }
+      .t-icon {
+        width: 30px;
+        height: 30px;
+        background: var(--navy);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .t-text {
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--navy);
+      }
+      .t-sep {
+        width: 1px;
+        height: 26px;
+        background: var(--gray-bdr);
+      }
+
+      /* ── TIERS ── */
+      .tiers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        position: relative;
+        margin-top: 8px;
+      }
+      .tier-conn {
+        position: absolute;
+        top: 44px;
+        left: calc(12.5% + 36px);
+        right: calc(12.5% + 36px);
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          var(--gold),
+          rgba(197, 156, 56, 0.2)
+        );
+      }
+      .tier {
+        background: var(--white);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-md);
+        padding: 28px 22px 24px;
+        position: relative;
+        margin: 0 8px;
+        transition:
+          box-shadow 0.2s,
+          transform 0.2s;
+      }
+      .tier:hover {
+        box-shadow: 0 8px 32px rgba(15, 42, 79, 0.1);
+        transform: translateY(-2px);
+      }
+      .tier.feat {
+        border-color: var(--navy);
+        border-top: 3px solid var(--gold);
+      }
+      .t-num {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Playfair Display", serif;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 18px;
+        position: relative;
+        z-index: 1;
+      }
+      .tn-a {
+        background: var(--gold-pale);
+        color: var(--gold);
+        border: 2px solid var(--gold);
+      }
+      .tn-b1 {
+        background: var(--green-bg);
+        color: var(--green);
+        border: 2px solid var(--green);
+      }
+      .tn-b2 {
+        background: #e8f0f9;
+        color: var(--navy);
+        border: 2px solid var(--navy);
+      }
+      .tn-b3 {
+        background: var(--gray-bg);
+        color: var(--gray-dark);
+        border: 2px solid var(--gray-bdr);
+      }
+      .t-lbl {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--gray-mid);
+        margin-bottom: 6px;
+      }
+      .t-name {
+        font-family: "Playfair Display", serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--navy);
+        margin-bottom: 8px;
+        line-height: 1.3;
+      }
+      .t-price {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+        padding: 4px 10px;
+        border-radius: 3px;
+        display: inline-block;
+      }
+      .tp-free {
+        background: var(--gold-pale);
+        color: var(--warn);
+      }
+      .tp-paid {
+        background: var(--green-bg);
+        color: var(--green);
+      }
+      .tp-full {
+        background: #e8f0f9;
+        color: var(--navy);
+      }
+      .tp-dir {
+        background: var(--gray-bg);
+        color: var(--gray-dark);
+      }
+      .t-desc {
+        font-size: 12px;
+        color: var(--gray-dark);
+        line-height: 1.65;
+        margin-bottom: 14px;
+      }
+      .t-note {
+        font-size: 10px;
+        font-style: italic;
+        color: var(--gray-mid);
+        line-height: 1.5;
+        border-top: 1px solid var(--gray-bdr);
+        padding-top: 10px;
+      }
+
+      /* ── FOUNDER / PLATFORM PROOF ── */
+      .proof-split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 56px;
+        align-items: start;
+      }
+      .proof-left {
+      }
+      .founder-card {
+        background: var(--white);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-lg);
+        overflow: hidden;
+      }
+      .fc-top {
+        background: var(--navy);
+        padding: 28px 28px 24px;
+        border-bottom: 3px solid var(--gold);
+      }
+      .fc-tag {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold-light);
+        margin-bottom: 10px;
+      }
+      .fc-name {
+        font-family: "Playfair Display", serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--white);
+        margin-bottom: 4px;
+      }
+      .fc-title {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.55);
+        font-weight: 300;
+      }
+      .fc-body {
+        padding: 24px 28px;
+      }
+      .fc-bio {
+        font-size: 14px;
+        color: var(--gray-dark);
+        line-height: 1.75;
+        margin-bottom: 20px;
+      }
+      .fc-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1px;
+        background: var(--gray-bdr);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-sm);
+        overflow: hidden;
+      }
+      .fc-stat {
+        background: var(--white);
+        padding: 16px 12px;
+        text-align: center;
+      }
+      .fc-stat-num {
+        font-family: "Playfair Display", serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--navy);
+        line-height: 1;
+      }
+      .fc-stat-num sup {
+        font-size: 14px;
+        color: var(--gold);
+      }
+      .fc-stat-lbl {
+        font-size: 10px;
+        color: var(--gray-mid);
+        margin-top: 4px;
+        line-height: 1.4;
+      }
+
+      .proof-right {
+      }
+      .platform-hdr {
+        margin-bottom: 24px;
+      }
+      .platform-items {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .pi {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 18px;
+        background: var(--white);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-md);
+        transition:
+          box-shadow 0.2s,
+          transform 0.2s;
+      }
+      .pi:hover {
+        box-shadow: 0 4px 20px rgba(15, 42, 79, 0.08);
+        transform: translateY(-1px);
+      }
+      .pi-icon {
+        width: 40px;
+        height: 40px;
+        background: var(--gold-pale);
+        border: 1px solid rgba(197, 156, 56, 0.3);
+        border-radius: var(--r-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .pi-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--navy);
+        margin-bottom: 4px;
+      }
+      .pi-desc {
+        font-size: 12px;
+        color: var(--gray-dark);
+        line-height: 1.6;
+      }
+
+      /* ── EVALUATOR ── */
+      .eval-wrap {
+        background: var(--white);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-lg);
+        overflow: hidden;
+        box-shadow: 0 4px 40px rgba(15, 42, 79, 0.08);
+      }
+      .eval-hdr {
+        background: var(--navy);
+        padding: 22px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .eval-title {
+        font-family: "Playfair Display", serif;
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--white);
+        margin-bottom: 3px;
+      }
+      .eval-sub {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.45);
+        font-weight: 300;
+      }
+      .stage-badge {
+        background: rgba(197, 156, 56, 0.15);
+        border: 1px solid rgba(197, 156, 56, 0.3);
+        border-radius: 4px;
+        padding: 6px 14px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .sb-lbl {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--gold);
+      }
+      .eval-body {
+        padding: 32px;
+      }
+
+      .eval-steps {
+        display: flex;
+        margin-bottom: 32px;
+        border-bottom: 1px solid var(--gray-bdr);
+        overflow-x: auto;
+      }
+      .e-step {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 0 18px 16px;
+        border-bottom: 3px solid transparent;
+        flex-shrink: 0;
+      }
+      .e-step.active {
+        border-bottom-color: var(--navy);
+      }
+      .e-step.done {
+        border-bottom-color: var(--gold);
+      }
+      .e-num {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: var(--gray-bg);
+        border: 1px solid var(--gray-bdr);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 700;
+        color: var(--gray-mid);
+      }
+      .e-step.active .e-num {
+        background: var(--navy);
+        color: var(--white);
+        border-color: var(--navy);
+      }
+      .e-step.done .e-num {
+        background: var(--gold);
+        color: var(--navy-deep);
+        border-color: var(--gold);
+      }
+      .e-lbl {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--gray-mid);
+      }
+      .e-step.active .e-lbl {
+        color: var(--navy);
+      }
+      .e-step.done .e-lbl {
+        color: var(--gray-dark);
+      }
+
+      .e-panel {
+        display: none;
+      }
+      .e-panel.active {
+        display: block;
+      }
+
+      .f-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+      .f-grp {
+        margin-bottom: 16px;
+      }
+      .f-lbl {
+        display: block;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: var(--navy);
+        margin-bottom: 6px;
+      }
+      .f-req {
+        color: var(--gold);
+      }
+      .f-in,
+      .f-sel,
+      .f-ta {
+        width: 100%;
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-sm);
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        color: var(--text);
+        background: var(--white);
+        outline: none;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s;
+      }
+      .f-in,
+      .f-sel {
+        height: 44px;
+        padding: 0 14px;
+      }
+      .f-ta {
+        padding: 12px 14px;
+        resize: vertical;
+        min-height: 80px;
+        line-height: 1.6;
+      }
+      .f-sel {
+        appearance: none;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%230F2A4F' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: right 14px center;
+      }
+      .f-in:focus,
+      .f-sel:focus,
+      .f-ta:focus {
+        border-color: var(--navy);
+        box-shadow: 0 0 0 3px rgba(15, 42, 79, 0.08);
+      }
+      .f-in.err,
+      .f-sel.err {
+        border-color: #dc2626;
+      }
+      .f-err {
+        font-size: 11px;
+        color: #dc2626;
+        margin-top: 4px;
+      }
+      .f-note {
+        font-size: 11px;
+        color: var(--gray-mid);
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+
+      .crit-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+      .crit-lbl {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 12px;
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-sm);
+        cursor: pointer;
+        transition:
+          border-color 0.2s,
+          background 0.2s;
+      }
+      .crit-lbl:hover {
+        border-color: var(--navy);
+        background: var(--gray-bg);
+      }
+      .crit-lbl:focus-within {
+        border-color: var(--navy);
+        box-shadow: 0 0 0 3px rgba(15, 42, 79, 0.08);
+      }
+      .crit-cb {
+        width: 17px;
+        height: 17px;
+        border-radius: 3px;
+        flex-shrink: 0;
+        margin-top: 1px;
+        accent-color: var(--navy);
+        cursor: pointer;
+      }
+      .crit-txt {
+        font-size: 12px;
+        color: var(--gray-dark);
+        line-height: 1.45;
+      }
+
+      .upl-box {
+        background: var(--warn-bg);
+        border: 1px solid #f0c040;
+        border-radius: var(--r-md);
+        padding: 20px 22px;
+        margin-bottom: 24px;
+      }
+      .upl-ttl {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--warn);
+        margin-bottom: 10px;
+      }
+      .upl-txt {
+        font-size: 12px;
+        color: #5a4000;
+        line-height: 1.7;
+        margin-bottom: 14px;
+      }
+      .upl-acks {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .ack-lbl {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        cursor: pointer;
+        padding: 6px 0;
+      }
+      .ack-cb {
+        width: 17px;
+        height: 17px;
+        border-radius: 3px;
+        flex-shrink: 0;
+        margin-top: 2px;
+        accent-color: var(--navy);
+        cursor: pointer;
+      }
+      .ack-txt {
+        font-size: 12px;
+        color: #5a4000;
+        line-height: 1.5;
+      }
+      .ack-txt strong {
+        font-weight: 600;
+      }
+
+      .e-btn {
+        width: 100%;
+        height: 50px;
+        background: var(--navy);
+        color: var(--white);
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        border: none;
+        border-radius: var(--r-sm);
+        cursor: pointer;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+      .e-btn:hover:not(:disabled) {
+        background: var(--navy-mid);
+      }
+      .e-btn:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+      .e-btn-gold {
+        background: var(--gold);
+        color: var(--navy-deep);
+      }
+      .e-btn-gold:hover:not(:disabled) {
+        background: var(--gold-light);
+      }
+
+      .ack-status {
+        font-size: 12px;
+        color: var(--gray-mid);
+        margin-bottom: 14px;
+        text-align: center;
+      }
+
+      .result-wrap {
+        display: none;
+      }
+      .result-wrap.visible {
+        display: block;
+      }
+      .r-strength {
+        padding: 8px 18px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      .rs-strong {
+        background: var(--green-bg);
+        color: var(--green);
+      }
+      .rs-developing {
+        background: var(--warn-bg);
+        color: var(--warn);
+      }
+      .rs-prelim {
+        background: var(--gray-bg);
+        color: var(--gray-dark);
+      }
+      .r-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+      .r-crit {
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-sm);
+        padding: 12px 14px;
+      }
+      .rc-hdr {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 4px;
+      }
+      .rc-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        flex-shrink: 0;
+      }
+      .d-met {
+        background: #2ea043;
+      }
+      .d-part {
+        background: var(--gold);
+      }
+      .d-unk {
+        background: var(--gray-bdr);
+      }
+      .rc-name {
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--navy);
+      }
+      .rc-status {
+        margin-left: auto;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        padding: 2px 8px;
+        border-radius: 2px;
+        white-space: nowrap;
+      }
+      .s-met {
+        background: var(--green-bg);
+        color: var(--green);
+      }
+      .s-part {
+        background: var(--warn-bg);
+        color: var(--warn);
+      }
+      .s-unk {
+        background: var(--gray-bg);
+        color: var(--gray-mid);
+      }
+      .rc-note {
+        font-size: 11px;
+        color: var(--gray-dark);
+        line-height: 1.5;
+      }
+      .r-next {
+        background: var(--gray-bg);
+        border-radius: var(--r-md);
+        padding: 18px 20px;
+      }
+      .rn-ttl {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--navy);
+        margin-bottom: 10px;
+      }
+      .rn-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        font-size: 12px;
+        color: var(--gray-dark);
+        line-height: 1.55;
+        margin-bottom: 7px;
+      }
+      .rn-arrow {
+        color: var(--gold);
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+      .loading-state {
+        text-align: center;
+        padding: 40px 20px;
+      }
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid var(--gray-bdr);
+        border-top-color: var(--navy);
+        border-radius: 50%;
+        animation: spin 0.7s linear infinite;
+        margin: 0 auto 16px;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .loading-txt {
+        font-size: 13px;
+        color: var(--gray-mid);
+        font-weight: 300;
+      }
+      .error-state {
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        border-radius: var(--r-sm);
+        padding: 16px;
+        text-align: center;
+        font-size: 13px;
+        color: #991b1b;
+        display: none;
+        margin-bottom: 12px;
+      }
+
+      /* ── B1 CTA ── */
+      .b1-cta {
+        background: var(--gold-pale);
+        border: 1px solid rgba(197, 156, 56, 0.35);
+        border-radius: var(--r-lg);
+        padding: 44px 48px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 40px;
+        align-items: center;
+      }
+      .b1-ey {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--warn);
+        margin-bottom: 10px;
+      }
+      .b1-title {
+        font-family: "Playfair Display", serif;
+        font-size: 26px;
+        font-weight: 600;
+        color: var(--navy);
+        margin-bottom: 10px;
+        line-height: 1.2;
+      }
+      .b1-desc {
+        font-size: 14px;
+        color: var(--gray-dark);
+        line-height: 1.7;
+        max-width: 520px;
+      }
+      .b1-items {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 16px;
+      }
+      .b1-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+        color: var(--gray-dark);
+      }
+      .b1-chk {
+        color: var(--green);
+        font-weight: 700;
+        flex-shrink: 0;
+      }
+      .b1-right {
+        text-align: center;
+        flex-shrink: 0;
+      }
+      .b1-pl {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gray-mid);
+        margin-bottom: 4px;
+      }
+      .b1-price {
+        font-family: "Playfair Display", serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--navy);
+        margin-bottom: 6px;
+      }
+      .b1-note {
+        font-size: 10px;
+        color: var(--gray-mid);
+        margin-top: 10px;
+        line-height: 1.5;
+        max-width: 200px;
+      }
+
+      /* ── VISA TYPES ── */
+      .visa-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+      }
+      .visa-card {
+        background: var(--white);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-lg);
+        overflow: hidden;
+        transition:
+          box-shadow 0.2s,
+          transform 0.2s;
+      }
+      .visa-card:hover {
+        box-shadow: 0 8px 30px rgba(15, 42, 79, 0.1);
+        transform: translateY(-2px);
+      }
+      .v-top {
+        background: var(--navy);
+        padding: 22px 22px 18px;
+        border-bottom: 3px solid var(--gold);
+      }
+      .v-code {
+        font-family: "Playfair Display", serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--white);
+        margin-bottom: 2px;
+      }
+      .v-name {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .v-body {
+        padding: 20px 22px;
+      }
+      .v-desc {
+        font-size: 12px;
+        color: var(--gray-dark);
+        line-height: 1.65;
+        margin-bottom: 14px;
+      }
+      .v-items {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .v-item {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-size: 11px;
+        color: var(--gray-dark);
+      }
+      .v-dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--gold);
+        flex-shrink: 0;
+      }
+
+      /* ── BLOG ── */
+      .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+      }
+      .blog-card {
+        background: var(--white);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-lg);
+        overflow: hidden;
+        transition:
+          box-shadow 0.2s,
+          transform 0.2s;
+        display: flex;
+        flex-direction: column;
+      }
+      .blog-card:hover {
+        box-shadow: 0 8px 30px rgba(15, 42, 79, 0.1);
+        transform: translateY(-2px);
+      }
+      .blog-img {
+        height: 180px;
+        background: var(--navy);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .blog-img-bg {
+        position: absolute;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(197, 156, 56, 0.05) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(197, 156, 56, 0.05) 1px, transparent 1px);
+        background-size: 32px 32px;
+      }
+      .blog-cat {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--gold);
+        background: rgba(197, 156, 56, 0.15);
+        border: 1px solid rgba(197, 156, 56, 0.3);
+        border-radius: 3px;
+        padding: 4px 10px;
+      }
+      .blog-icon {
+        position: relative;
+        z-index: 1;
+      }
+      .blog-body {
+        padding: 24px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .blog-date {
+        font-size: 11px;
+        color: var(--gray-mid);
+        margin-bottom: 8px;
+      }
+      .blog-title {
+        font-family: "Playfair Display", serif;
+        font-size: 19px;
+        font-weight: 600;
+        color: var(--navy);
+        line-height: 1.3;
+        margin-bottom: 10px;
+      }
+      .blog-excerpt {
+        font-size: 13px;
+        color: var(--gray-dark);
+        line-height: 1.7;
+        flex: 1;
+        margin-bottom: 18px;
+      }
+      .blog-read {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--navy);
+        border-bottom: 1.5px solid var(--gold);
+        padding-bottom: 2px;
+        transition: color 0.2s;
+      }
+      .blog-read:hover {
+        color: var(--gold);
+      }
+
+      /* ── ATTORNEY NETWORK ── */
+      .net-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 56px;
+        align-items: start;
+      }
+      .net-card {
+        background: var(--white);
+        border: 1px solid var(--gray-bdr);
+        border-radius: var(--r-md);
+        padding: 20px 22px;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        margin-bottom: 16px;
+        transition: box-shadow 0.2s;
+      }
+      .net-card:hover {
+        box-shadow: 0 4px 20px rgba(15, 42, 79, 0.08);
+      }
+      .net-icon {
+        width: 40px;
+        height: 40px;
+        background: var(--gold-pale);
+        border-radius: var(--r-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border: 1px solid rgba(197, 156, 56, 0.3);
+      }
+      .net-title {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--navy);
+        margin-bottom: 4px;
+      }
+      .net-desc {
+        font-size: 12px;
+        color: var(--gray-dark);
+        line-height: 1.6;
+      }
+      .disc {
+        background: var(--navy-deep);
+        border-radius: var(--r-lg);
+        padding: 32px 28px;
+      }
+      .disc-title {
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--white);
+        margin-bottom: 6px;
+      }
+      .disc-sub {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.45);
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+      .disc-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.6);
+        line-height: 1.55;
+      }
+      .disc-item:last-of-type {
+        border-bottom: none;
+      }
+      .disc-arr {
+        color: var(--gold);
+        font-weight: 700;
+        flex-shrink: 0;
+        margin-top: 1px;
+      }
+      .fee-box {
+        margin-top: 16px;
+        padding: 14px;
+        background: rgba(197, 156, 56, 0.1);
+        border: 1px solid rgba(197, 156, 56, 0.25);
+        border-radius: var(--r-sm);
+      }
+      .fee-lbl {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 6px;
+      }
+      .fee-txt {
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.65;
+      }
+      .disc-legal {
+        margin-top: 16px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        font-size: 10px;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.25);
+        line-height: 1.65;
+      }
+
+      /* ── FOOTER ── */
+      footer {
+        background: var(--navy-deep);
+        border-top: 3px solid var(--gold);
+      }
+      .ft-main {
+        padding: 52px 0 36px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 44px;
+      }
+      .ft-logo {
+        font-family: "Playfair Display", serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--white);
+        margin-bottom: 10px;
+      }
+      .ft-tagline {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.38);
+        line-height: 1.7;
+        max-width: 260px;
+        margin-bottom: 18px;
+      }
+      .ft-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(197, 156, 56, 0.1);
+        border: 1px solid rgba(197, 156, 56, 0.22);
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 10px;
+        font-weight: 600;
+        color: var(--gold);
+        letter-spacing: 0.05em;
+      }
+      .fc-ttl {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 16px;
+      }
+      .fc-links {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .fc-links a {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.45);
+        transition: color 0.2s;
+      }
+      .fc-links a:hover {
+        color: var(--white);
+      }
+      .ft-bot {
+        border-top: 1px solid rgba(255, 255, 255, 0.07);
+        padding: 18px 0 22px;
+      }
+      .disc-txt {
+        font-size: 10px;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.28);
+        line-height: 1.75;
+        margin-bottom: 10px;
+      }
+      .priv-txt {
+        font-size: 9px;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.18);
+        line-height: 1.7;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        padding-top: 10px;
+        margin-bottom: 12px;
+      }
+      .ft-copy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .copy-txt {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.22);
+      }
+      .copy-lnks {
+        display: flex;
+        gap: 16px;
+      }
+      .copy-lnks a {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.22);
+        transition: color 0.2s;
+      }
+      .copy-lnks a:hover {
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      /* ── MOBILE ── */
+      @media (max-width: 900px) {
+        .container {
+          padding: 0 24px;
+        }
+        .hero-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+        .tiers {
+          grid-template-columns: 1fr 1fr;
+        }
+        .tier-conn {
+          display: none;
+        }
+        .tier {
+          margin: 0;
+        }
+        .proof-split {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+        .b1-cta {
+          grid-template-columns: 1fr;
+          gap: 24px;
+        }
+        .b1-right {
+          text-align: left;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          flex-wrap: wrap;
+        }
+        .visa-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .blog-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .net-grid {
+          grid-template-columns: 1fr;
+          gap: 32px;
+        }
+        .ft-main {
+          grid-template-columns: 1fr 1fr;
+          gap: 32px;
+        }
+        .f-row {
+          grid-template-columns: 1fr;
+        }
+        .crit-grid {
+          grid-template-columns: 1fr;
+        }
+        .r-grid {
+          grid-template-columns: 1fr;
+        }
+        .nav-links {
+          display: none;
+        }
+        .nav-ham {
+          display: block;
+        }
+        .t-sep {
+          display: none;
+        }
+        #cookie-bar {
+          padding: 14px 24px;
+        }
+      }
+      @media (max-width: 600px) {
+        :root {
+          --sy: 60px;
+        }
+        .container {
+          padding: 0 18px;
+        }
+        .tiers {
+          grid-template-columns: 1fr;
+        }
+        .visa-grid {
+          grid-template-columns: 1fr;
+        }
+        .blog-grid {
+          grid-template-columns: 1fr;
+        }
+        .ft-main {
+          grid-template-columns: 1fr;
+        }
+        .eval-body {
+          padding: 20px;
+        }
+        .hero-in {
+          padding: 48px 0;
+        }
+        .fc-stats {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#evaluator">Skip to evaluation tool</a>
+
+    <!-- COOKIE CONSENT -->
+    <div id="cookie-bar" role="alert" aria-live="polite">
+      <p>
+        We use essential cookies to operate this platform. No advertising or
+        tracking cookies are used. See our <a href="#">Privacy Policy</a>.
+        California residents may exercise CCPA rights per our Privacy Policy.
+      </p>
+      <div class="cookie-btns">
+        <button class="c-btn c-accept" onclick="setCookie(true)">Accept</button>
+        <button class="c-btn c-decline" onclick="setCookie(false)">
+          Decline
+        </button>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav role="navigation" aria-label="Main navigation">
+      <div class="container nav-in">
+        <a href="#" class="logo" aria-label="PetitionIQ home">
+          <span class="logo-word">PetitionIQ</span>
+          <span class="logo-tld">.ai</span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#evaluator">Free Evaluation</a></li>
+          <li><a href="#b1-consult">Consultations</a></li>
+          <li><a href="#blog">Insights</a></li>
+          <li><a href="#attorneys">Attorney Network</a></li>
+        </ul>
+        <a href="#evaluator" class="btn btn-gold">Start Free Evaluation</a>
+        <button
+          class="nav-ham"
+          aria-label="Toggle menu"
+          onclick="toggleNav()"
+          aria-expanded="false"
+          id="hamburger"
+        >
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            aria-hidden="true"
+          >
+            <line
+              x1="2"
+              y1="6"
+              x2="20"
+              y2="6"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <line
+              x1="2"
+              y1="11"
+              x2="20"
+              y2="11"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <line
+              x1="2"
+              y1="16"
+              x2="20"
+              y2="16"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Hero section">
+      <div class="glow glow-a" aria-hidden="true"></div>
+      <div class="glow glow-b" aria-hidden="true"></div>
+      <div class="container hero-in">
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow eyebrow-lt"
+              >AI-Powered Immigration Evaluation</span
+            >
+            <h1 class="hero-disp">
+              Your petition,<br /><em>precisely argued.</em>
+            </h1>
+            <p class="hero-body">
+              PetitionIQ maps immigration credentials against USCIS adjudication
+              standards before your firm files a single page. Evaluate free.
+              Engage an attorney when ready.
+            </p>
+            <div class="hero-tags" role="list" aria-label="Visa coverage">
+              <span class="tag" role="listitem">EB-1A</span>
+              <span class="tag" role="listitem">EB-2 NIW</span>
+              <span class="tag" role="listitem">O-1A</span>
+              <span class="tag" role="listitem">Proprietary AI</span>
+              <span class="tag" role="listitem">Attorney-Supervised</span>
+            </div>
+            <div class="hero-btns">
+              <a href="#evaluator" class="btn btn-gold">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M2 6.5L5.5 10L11 3"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Free AI Evaluation — Stage A
+              </a>
+              <a href="#how-it-works" class="btn btn-ghost">See All Stages</a>
+            </div>
+          </div>
+          <div class="sp fade-up d2" aria-hidden="true">
+            <div class="sp-bar">
+              <div class="sp-dots">
+                <div class="sp-dot" style="background: #ff5f57"></div>
+                <div class="sp-dot" style="background: #ffbd2e"></div>
+                <div class="sp-dot" style="background: #28c840"></div>
+              </div>
+              <span class="sp-caption">PetitionIQ — Client Journey</span>
+            </div>
+            <div class="sp-body">
+              <div class="sp-row">
+                <div class="sp-badge ba">A</div>
+                <div>
+                  <div class="sp-name">Free AI Evaluation</div>
+                  <div class="sp-desc">AI-only · No attorney · No fee</div>
+                </div>
+                <div class="sp-price">Free</div>
+              </div>
+              <div class="sp-row">
+                <div class="sp-badge bb1">B1</div>
+                <div>
+                  <div class="sp-name">Strategic Consultation</div>
+                  <div class="sp-desc">
+                    Paid · Participating Attorney · No obligation
+                  </div>
+                </div>
+                <div class="sp-price">Flat fee</div>
+              </div>
+              <div class="sp-row">
+                <div class="sp-badge bb2">B2</div>
+                <div>
+                  <div class="sp-name">Full Case Preparation</div>
+                  <div class="sp-desc">Attorney-Client Agreement required</div>
+                </div>
+                <div class="sp-price">Per case</div>
+              </div>
+              <div class="sp-row">
+                <div class="sp-badge bb3">B3</div>
+                <div>
+                  <div class="sp-name">Non-Legal Services</div>
+                  <div class="sp-desc">Platform tools billed directly</div>
+                </div>
+                <div class="sp-price">Schedule E</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <div class="trust-bar" role="complementary" aria-label="Trust signals">
+      <div class="container trust-in">
+        <div class="t-item">
+          <div class="t-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path
+                d="M7 1L8.8 5.2L13 5.9L10 8.8L10.6 13L7 11L3.4 13L4 8.8L1 5.9L5.2 5.2L7 1Z"
+                stroke="#C59C38"
+                stroke-width="1.2"
+                fill="none"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <span class="t-text">10+ Years Immigration Experience</span>
+        </div>
+        <div class="t-sep" aria-hidden="true"></div>
+        <div class="t-item">
+          <div class="t-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <rect
+                x="2"
+                y="3"
+                width="10"
+                height="8"
+                rx="1.5"
+                stroke="#C59C38"
+                stroke-width="1.2"
+              />
+              <path
+                d="M5 6h4M5 8.5h2.5"
+                stroke="#C59C38"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <span class="t-text">Attorney-Supervised Platform</span>
+        </div>
+        <div class="t-sep" aria-hidden="true"></div>
+        <div class="t-item">
+          <div class="t-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <circle cx="7" cy="7" r="5" stroke="#C59C38" stroke-width="1.2" />
+              <path
+                d="M5 7l1.5 1.5L9.5 5"
+                stroke="#C59C38"
+                stroke-width="1.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <span class="t-text">Proprietary AI Technology</span>
+        </div>
+        <div class="t-sep" aria-hidden="true"></div>
+        <div class="t-item">
+          <div class="t-icon" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path
+                d="M4 7h6M7 4v6"
+                stroke="#C59C38"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <circle cx="7" cy="7" r="5" stroke="#C59C38" stroke-width="1.2" />
+            </svg>
+          </div>
+          <span class="t-text">Not a Law Firm · No Legal Advice</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TIER STRUCTURE -->
+    <section class="section" id="how-it-works" aria-labelledby="tiers-h">
+      <div class="container">
+        <div class="sec-hdr center fade-up">
+          <span class="eyebrow">Client Journey</span>
+          <div class="gold-rule"></div>
+          <h2 class="h2" id="tiers-h">
+            Four stages. Your choice at every step.
+          </h2>
+          <p class="lead">
+            No stage obligates you to proceed to the next. Legal representation
+            commences only upon a signed Attorney-Client Engagement Agreement.
+          </p>
+        </div>
+        <div class="tiers fade-up" role="list" aria-label="Service stages">
+          <div class="tier-conn" aria-hidden="true"></div>
+          <div class="tier feat" role="listitem">
+            <div class="t-num tn-a" aria-hidden="true">A</div>
+            <div class="t-lbl">Stage A</div>
+            <div class="t-name">
+              Free AI Evaluation &amp; Platform Orientation
+            </div>
+            <span class="t-price tp-free">No Fee</span>
+            <div class="t-desc">
+              Preliminary AI-powered assessment of immigration credentials
+              against USCIS criteria. No attorney involvement. No legal advice.
+              Governed by PetitionIQ's UPL Acknowledgment.
+            </div>
+            <div class="t-note">
+              Does not create an attorney-client relationship. Output is for
+              informational purposes only.
+            </div>
+          </div>
+          <div class="tier" role="listitem">
+            <div class="t-num tn-b1" aria-hidden="true">B1</div>
+            <div class="t-lbl">Stage B1</div>
+            <div class="t-name">Paid Strategic Onboarding Consultation</div>
+            <span class="t-price tp-paid">Flat Consultation Fee</span>
+            <div class="t-desc">
+              Paid, limited-scope consultation with a Participating Attorney.
+              Consultation fee paid directly to the Law Firm. PetitionIQ
+              invoices the Law Firm separately for case preparation services —
+              not for the referral. B1 does not obligate the attorney to accept
+              your matter.
+            </div>
+            <div class="t-note">
+              Governed by the Limited-Scope Consultation Agreement. Fee credit
+              toward B2 at attorney's sole discretion.
+            </div>
+          </div>
+          <div class="tier" role="listitem">
+            <div class="t-num tn-b2" aria-hidden="true">B2</div>
+            <div class="t-lbl">Stage B2</div>
+            <div class="t-name">Full Case Commencement &amp; Preparation</div>
+            <span class="t-price tp-full">Per-Case / Retainer</span>
+            <div class="t-desc">
+              Full case preparation begins only upon execution of an
+              Attorney-Client Engagement Agreement. Legal fees paid directly to
+              the Law Firm. PetitionIQ invoices the Law Firm for
+              Employment-Based Immigration Specialist services — not fee-sharing
+              under TDRPC Rule 5.04 or ABA Model Rule 5.4.
+            </div>
+            <div class="t-note">
+              Per-case flat fee, monthly retainer, or hybrid model per Schedule
+              A.
+            </div>
+          </div>
+          <div class="tier" role="listitem">
+            <div class="t-num tn-b3" aria-hidden="true">B3</div>
+            <div class="t-lbl">Stage B3</div>
+            <div class="t-name">PetitionIQ Non-Legal Platform Services</div>
+            <span class="t-price tp-dir">Direct Client Billing</span>
+            <div class="t-desc">
+              PetitionIQ may invoice the client directly for non-legal
+              administrative services, platform access, and third-party costs
+              outside the scope of the Law Firm's legal representation per
+              Schedule E.
+            </div>
+            <div class="t-note">
+              Entirely separate from the Law Firm's legal fees. Does not
+              constitute fee-sharing under applicable professional conduct
+              rules.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOUNDER & PLATFORM PROOF -->
+    <section class="section sec-gray" aria-labelledby="proof-h">
+      <div class="container">
+        <div class="sec-hdr center fade-up" style="margin-bottom: 48px">
+          <span class="eyebrow">Why PetitionIQ</span>
+          <div class="gold-rule"></div>
+          <h2 class="h2" id="proof-h">
+            Practitioner expertise meets intelligent technology.
+          </h2>
+          <p class="lead">
+            Built by someone who has prepared these cases. Powered by AI that
+            understands what USCIS actually looks for.
+          </p>
+        </div>
+        <div class="proof-split">
+          <div>
+            <div class="founder-card fade-up d1">
+              <div class="fc-top">
+                <div class="fc-tag">
+                  Founder &amp; Employment-Based Immigration Specialist
+                </div>
+                <div class="fc-name">Khushboo Jain</div>
+                <div class="fc-title">PetitionIQ.ai</div>
+              </div>
+              <div class="fc-body">
+                <p class="fc-bio">
+                  With over a decade of hands-on experience preparing EB-1A,
+                  EB-2 NIW, and O-1A petitions, Khushboo built PetitionIQ to
+                  solve a problem she witnessed every day — the absence of a
+                  systematic, criteria-driven pre-filing evaluation that
+                  attorneys could trust and their teams could scale. Every
+                  checklist, every AI prompt, and every criteria framework in
+                  PetitionIQ is grounded in real adjudication logic, not
+                  academic theory.
+                </p>
+                <div class="fc-stats">
+                  <div class="fc-stat">
+                    <div class="fc-stat-num">10<sup>+</sup></div>
+                    <div class="fc-stat-lbl">
+                      Years employment-based immigration experience
+                    </div>
+                  </div>
+                  <div class="fc-stat">
+                    <div class="fc-stat-num">3</div>
+                    <div class="fc-stat-lbl">
+                      Visa categories at launch — the most complex
+                    </div>
+                  </div>
+                  <div class="fc-stat">
+                    <div class="fc-stat-num">0</div>
+                    <div class="fc-stat-lbl">
+                      Cases where pre-filing evidence audit is optional
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="platform-hdr fade-up d2">
+              <span class="eyebrow">The Platform</span>
+              <div class="gold-rule"></div>
+              <h3
+                style="
+                  font-family: &quot;Playfair Display&quot;, serif;
+                  font-size: 22px;
+                  font-weight: 600;
+                  color: var(--navy);
+                  margin-bottom: 8px;
+                "
+              >
+                Intelligent by design. Legally grounded by experience.
+              </h3>
+              <p
+                style="
+                  font-size: 13px;
+                  color: var(--gray-dark);
+                  line-height: 1.7;
+                "
+              >
+                PetitionIQ's proprietary AI is built on enterprise-grade large
+                language model infrastructure, trained with immigration-specific
+                legal logic and calibrated against real USCIS adjudication
+                standards — not generic document summarisation.
+              </p>
+            </div>
+            <div class="platform-items">
+              <div class="pi fade-up d2">
+                <div class="pi-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <rect
+                      x="3"
+                      y="3"
+                      width="14"
+                      height="14"
+                      rx="2.5"
+                      stroke="#C59C38"
+                      stroke-width="1.3"
+                    />
+                    <path
+                      d="M6 10h8M6 13h5"
+                      stroke="#C59C38"
+                      stroke-width="1.3"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="pi-title">Smart Checklists — Already Built</div>
+                  <div class="pi-desc">
+                    EB-1A 10-criteria, NIW 3-prong Dhanasar, and O-1A 8-criteria
+                    checklists built from 8 CFR and AAO precedent — not generic
+                    templates.
+                  </div>
+                </div>
+              </div>
+              <div class="pi fade-up d3">
+                <div class="pi-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <circle
+                      cx="10"
+                      cy="10"
+                      r="7"
+                      stroke="#C59C38"
+                      stroke-width="1.3"
+                    />
+                    <path
+                      d="M7 10l2 2 4-4"
+                      stroke="#C59C38"
+                      stroke-width="1.3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="pi-title">Criteria Mapping Engine</div>
+                  <div class="pi-desc">
+                    Credentials mapped to USCIS adjudication standards with
+                    evidence strength scoring — before the attorney sees the
+                    file.
+                  </div>
+                </div>
+              </div>
+              <div class="pi fade-up d4">
+                <div class="pi-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M10 3L12 7.5H17L13 10.5L14.5 15L10 12.5L5.5 15L7 10.5L3 7.5H8L10 3Z"
+                      stroke="#C59C38"
+                      stroke-width="1.3"
+                      fill="none"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="pi-title">RFE-Resistant Preliminary Analysis</div>
+                  <div class="pi-desc">
+                    Flags evidential gaps and weak criteria before filing —
+                    turning avoidable RFEs into a preventable outcome rather
+                    than a surprise cost.
+                  </div>
+                </div>
+              </div>
+              <div class="pi fade-up d4">
+                <div class="pi-icon">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <rect
+                      x="2"
+                      y="4"
+                      width="16"
+                      height="12"
+                      rx="2"
+                      stroke="#C59C38"
+                      stroke-width="1.3"
+                    />
+                    <path
+                      d="M6 9h8M6 12h5"
+                      stroke="#C59C38"
+                      stroke-width="1.3"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <div class="pi-title">Attorney-Supervised Output</div>
+                  <div class="pi-desc">
+                    Every evaluation runs under the oversight of a supervising,
+                    licensed immigration attorney. AI provides the analysis —
+                    the attorney provides the legal judgment.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STAGE A EVALUATOR -->
+    <section class="section" id="evaluator" aria-labelledby="eval-h">
+      <div class="container">
+        <div class="sec-hdr center fade-up">
+          <span class="eyebrow">Stage A — Free</span>
+          <div class="gold-rule"></div>
+          <h2 class="h2" id="eval-h">Preliminary AI Evaluation</h2>
+          <p class="lead">
+            Enter your profile and select applicable criteria. Our proprietary
+            AI returns a preliminary indicator — not legal advice. Results are
+            sent to your email.
+          </p>
+        </div>
+        <div class="eval-wrap fade-up">
+          <div class="eval-hdr">
+            <div>
+              <div class="eval-title">Stage A Evaluation</div>
+              <div class="eval-sub">
+                Free · Proprietary AI · No attorney involvement · No legal
+                advice · UPL acknowledgment required
+              </div>
+            </div>
+            <div class="stage-badge" aria-label="Stage A Free Evaluation">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M7 1.5L8.8 5.5H13L9.5 8L10.8 12L7 9.8L3.2 12L4.5 8L1 5.5H5.2L7 1.5Z"
+                  stroke="#C59C38"
+                  stroke-width="1.2"
+                  fill="none"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span class="sb-lbl">Stage A · Free</span>
+            </div>
+          </div>
+          <div class="eval-body">
+            <nav class="eval-steps" aria-label="Evaluation progress">
+              <div class="e-step active" id="si-0" aria-current="step">
+                <div class="e-num">1</div>
+                <span class="e-lbl">Contact</span>
+              </div>
+              <div class="e-step" id="si-1">
+                <div class="e-num">2</div>
+                <span class="e-lbl">Profile</span>
+              </div>
+              <div class="e-step" id="si-2">
+                <div class="e-num">3</div>
+                <span class="e-lbl">Criteria</span>
+              </div>
+              <div class="e-step" id="si-3">
+                <div class="e-num">4</div>
+                <span class="e-lbl">Acknowledgment</span>
+              </div>
+              <div class="e-step" id="si-4">
+                <div class="e-num">5</div>
+                <span class="e-lbl">AI Results</span>
+              </div>
+            </nav>
+
+            <!-- STEP 0: CONTACT -->
+            <div class="e-panel active" id="ep-0">
+              <p class="f-note">
+                To receive your evaluation results, please provide your contact
+                information. Results will be emailed to you and a copy sent to
+                our team at contact@petitioniq.ai.
+              </p>
+              <div class="f-row">
+                <div class="f-grp" style="margin-bottom: 0">
+                  <label class="f-lbl" for="c-first"
+                    >First Name
+                    <span class="f-req" aria-hidden="true">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="f-in"
+                    id="c-first"
+                    autocomplete="given-name"
+                    placeholder="Jane"
+                    maxlength="60"
+                    required
+                  />
+                  <div
+                    class="f-err"
+                    id="e-first"
+                    role="alert"
+                    aria-live="polite"
+                  ></div>
+                </div>
+                <div class="f-grp" style="margin-bottom: 0">
+                  <label class="f-lbl" for="c-last"
+                    >Last Name
+                    <span class="f-req" aria-hidden="true">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="f-in"
+                    id="c-last"
+                    autocomplete="family-name"
+                    placeholder="Smith"
+                    maxlength="60"
+                    required
+                  />
+                  <div
+                    class="f-err"
+                    id="e-last"
+                    role="alert"
+                    aria-live="polite"
+                  ></div>
+                </div>
+              </div>
+              <div class="f-grp" style="margin-top: 16px">
+                <label class="f-lbl" for="c-email"
+                  >Email Address
+                  <span class="f-req" aria-hidden="true">*</span></label
+                >
+                <input
+                  type="email"
+                  class="f-in"
+                  id="c-email"
+                  autocomplete="email"
+                  placeholder="jane@example.com"
+                  maxlength="120"
+                  required
+                />
+                <div
+                  class="f-err"
+                  id="e-email"
+                  role="alert"
+                  aria-live="polite"
+                ></div>
+              </div>
+              <div class="f-grp">
+                <label class="f-lbl" for="c-role">Your Role</label>
+                <select class="f-sel" id="c-role">
+                  <option value="">Select...</option>
+                  <option>Immigration Attorney</option>
+                  <option>Employment-Based Immigration Specialist</option>
+                  <option>Self-Petitioner</option>
+                  <option>Firm Administrator</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <button class="e-btn" onclick="goStep(1)">
+                Next: Profile Information →
+              </button>
+            </div>
+
+            <!-- STEP 1: PROFILE -->
+            <div class="e-panel" id="ep-1">
+              <div class="f-row">
+                <div class="f-grp" style="margin-bottom: 0">
+                  <label class="f-lbl" for="v-cat"
+                    >Visa Category
+                    <span class="f-req" aria-hidden="true">*</span></label
+                  >
+                  <select class="f-sel" id="v-cat" required>
+                    <option value="">Select visa type...</option>
+                    <option value="EB1A">EB-1A — Extraordinary Ability</option>
+                    <option value="NIW">
+                      EB-2 NIW — National Interest Waiver
+                    </option>
+                    <option value="O1A">
+                      O-1A — Extraordinary Ability (Business)
+                    </option>
+                  </select>
+                  <div
+                    class="f-err"
+                    id="e-visa"
+                    role="alert"
+                    aria-live="polite"
+                  ></div>
+                </div>
+                <div class="f-grp" style="margin-bottom: 0">
+                  <label class="f-lbl" for="p-field"
+                    >Professional Field
+                    <span class="f-req" aria-hidden="true">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="f-in"
+                    id="p-field"
+                    placeholder="e.g. Computational Biology, AI Research"
+                    maxlength="120"
+                  />
+                  <div
+                    class="f-err"
+                    id="e-field"
+                    role="alert"
+                    aria-live="polite"
+                  ></div>
+                </div>
+              </div>
+              <div class="f-row" style="margin-top: 16px">
+                <div class="f-grp" style="margin-bottom: 0">
+                  <label class="f-lbl" for="p-deg">Highest Degree</label>
+                  <select class="f-sel" id="p-deg">
+                    <option value="">Select...</option>
+                    <option>Ph.D.</option>
+                    <option>M.D.</option>
+                    <option>J.D.</option>
+                    <option>Master's Degree</option>
+                    <option>Bachelor's Degree</option>
+                    <option>Professional Certification / Other</option>
+                  </select>
+                </div>
+                <div class="f-grp" style="margin-bottom: 0">
+                  <label class="f-lbl" for="p-exp">Years of Experience</label>
+                  <select class="f-sel" id="p-exp">
+                    <option value="">Select...</option>
+                    <option>Less than 3 years</option>
+                    <option>3–6 years</option>
+                    <option>7–12 years</option>
+                    <option>More than 12 years</option>
+                  </select>
+                </div>
+              </div>
+              <div class="f-grp" style="margin-top: 16px">
+                <label class="f-lbl" for="p-sum"
+                  >Brief Professional Summary
+                  <span
+                    style="
+                      font-weight: 400;
+                      text-transform: none;
+                      letter-spacing: 0;
+                      color: var(--gray-mid);
+                    "
+                    >(2–4 sentences · no personally identifying details)</span
+                  ></label
+                >
+                <textarea
+                  class="f-ta"
+                  id="p-sum"
+                  maxlength="600"
+                  placeholder="Briefly describe your professional background, key achievements, and the nature of your work."
+                ></textarea>
+              </div>
+              <div style="display: flex; gap: 12px">
+                <button
+                  class="btn btn-outline"
+                  onclick="goStep(0)"
+                  style="flex: 1; height: 44px; font-size: 11px"
+                >
+                  ← Back
+                </button>
+                <button class="e-btn" onclick="goStep(2)" style="flex: 2">
+                  Next: Select Criteria →
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 2: CRITERIA -->
+            <div class="e-panel" id="ep-2">
+              <p
+                style="
+                  font-size: 13px;
+                  color: var(--gray-dark);
+                  line-height: 1.7;
+                  margin-bottom: 20px;
+                "
+              >
+                Select all criteria you <strong>believe may apply</strong> based
+                on available evidence. This is a self-assessment — the AI
+                provides a preliminary indicator only.
+              </p>
+              <fieldset
+                id="crit-fs"
+                style="border: none; padding: 0; margin-bottom: 20px"
+              >
+                <legend class="f-lbl" style="margin-bottom: 14px">
+                  Applicable Criteria
+                </legend>
+                <div class="crit-grid" id="crit-grid"></div>
+              </fieldset>
+              <div style="display: flex; gap: 12px">
+                <button
+                  class="btn btn-outline"
+                  onclick="goStep(1)"
+                  style="flex: 1; height: 44px; font-size: 11px"
+                >
+                  ← Back
+                </button>
+                <button class="e-btn" onclick="goStep(3)" style="flex: 2">
+                  Next: Acknowledgment →
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 3: UPL ACKNOWLEDGMENT -->
+            <div class="e-panel" id="ep-3">
+              <div class="upl-box" role="group" aria-labelledby="upl-ttl">
+                <div class="upl-ttl" id="upl-ttl">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M8 2L14 13H2L8 2Z"
+                      stroke="#7A4F00"
+                      stroke-width="1.4"
+                      fill="none"
+                      stroke-linejoin="round"
+                    />
+                    <line
+                      x1="8"
+                      y1="7"
+                      x2="8"
+                      y2="10"
+                      stroke="#7A4F00"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                    />
+                    <circle cx="8" cy="12" r=".6" fill="#7A4F00" />
+                  </svg>
+                  Required: UPL Acknowledgment &amp; AI Evaluation Disclosure
+                </div>
+                <p class="upl-txt">
+                  All five statements must be individually acknowledged before
+                  your evaluation runs. This acknowledgment is recorded with a
+                  timestamp under PetitionIQ Platform Terms of Use v1.0 — 2026.
+                </p>
+                <div class="upl-acks">
+                  <label class="ack-lbl"
+                    ><input
+                      type="checkbox"
+                      class="ack-cb"
+                      id="ack1"
+                      onchange="updAck()"
+                    /><span class="ack-txt"
+                      ><strong>This is not legal advice.</strong> The AI
+                      evaluation is for informational purposes only. It does not
+                      constitute legal advice and may not be relied upon as a
+                      legal opinion regarding eligibility for any immigration
+                      benefit.</span
+                    ></label
+                  >
+                  <label class="ack-lbl"
+                    ><input
+                      type="checkbox"
+                      class="ack-cb"
+                      id="ack2"
+                      onchange="updAck()"
+                    /><span class="ack-txt"
+                      ><strong
+                        >No attorney-client relationship is created.</strong
+                      >
+                      Use of Stage A does not create an attorney-client
+                      relationship with PetitionIQ, any Participating Attorney,
+                      or any affiliated law firm.</span
+                    ></label
+                  >
+                  <label class="ack-lbl"
+                    ><input
+                      type="checkbox"
+                      class="ack-cb"
+                      id="ack3"
+                      onchange="updAck()"
+                    /><span class="ack-txt"
+                      ><strong>PetitionIQ is not a law firm.</strong> PetitionIQ
+                      provides AI-powered evaluation tools and Employment-Based
+                      Immigration Specialist services. It is not authorized to
+                      practice law.</span
+                    ></label
+                  >
+                  <label class="ack-lbl"
+                    ><input
+                      type="checkbox"
+                      class="ack-cb"
+                      id="ack4"
+                      onchange="updAck()"
+                    /><span class="ack-txt"
+                      ><strong
+                        >A licensed attorney must review any filing.</strong
+                      >
+                      Petition preparation and filing requires the involvement
+                      of a licensed immigration attorney. USCIS requirements
+                      change frequently.</span
+                    ></label
+                  >
+                  <label class="ack-lbl"
+                    ><input
+                      type="checkbox"
+                      class="ack-cb"
+                      id="ack5"
+                      onchange="updAck()"
+                    /><span class="ack-txt"
+                      ><strong
+                        >I am proceeding with full understanding of these
+                        limitations.</strong
+                      >
+                      I am using Stage A voluntarily, with awareness that it is
+                      a preliminary AI-generated assessment. I will not take
+                      immigration action based solely on this output.</span
+                    ></label
+                  >
+                </div>
+              </div>
+              <div class="ack-status" id="ack-status" aria-live="polite">
+                0 of 5 acknowledgments completed
+              </div>
+              <div style="display: flex; gap: 12px">
+                <button
+                  class="btn btn-outline"
+                  onclick="goStep(2)"
+                  style="flex: 1; height: 44px; font-size: 11px"
+                >
+                  ← Back
+                </button>
+                <button
+                  class="e-btn e-btn-gold"
+                  onclick="runEval()"
+                  id="btn-submit"
+                  disabled
+                  aria-disabled="true"
+                  style="flex: 2"
+                >
+                  Run AI Evaluation — Complete All 5 Above
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 4: RESULTS -->
+            <div class="e-panel" id="ep-4">
+              <div class="loading-state" id="loading-state" aria-live="polite">
+                <div class="spinner" aria-hidden="true"></div>
+                <div class="loading-txt">
+                  PetitionIQ proprietary AI is analyzing your profile…
+                </div>
+              </div>
+              <div
+                class="error-state"
+                id="error-state"
+                role="alert"
+                aria-live="assertive"
+              ></div>
+              <div
+                id="retry-wrap"
+                style="display: none; text-align: center; margin-bottom: 16px"
+              >
+                <button
+                  class="btn btn-navy"
+                  onclick="runEval()"
+                  style="display: inline-flex"
+                >
+                  Retry Evaluation
+                </button>
+              </div>
+              <div
+                class="result-wrap"
+                id="result-wrap"
+                aria-live="polite"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- B1 CTA -->
+    <section class="section sec-gray" id="b1-consult" aria-labelledby="b1-h">
+      <div class="container">
+        <div class="b1-cta fade-up">
+          <div>
+            <div class="b1-ey">Stage B1 — Paid Consultation</div>
+            <h2 class="b1-title" id="b1-h">
+              Ready to speak with a Participating Attorney?
+            </h2>
+            <p class="b1-desc">
+              Your Stage A evaluation identifies the strongest areas of your
+              profile. Stage B1 is a structured, limited-scope consultation with
+              a Participating Attorney — a candid, experienced assessment of
+              your petition pathway with no obligation to proceed further.
+            </p>
+            <div class="b1-items">
+              <div class="b1-item">
+                <span class="b1-chk">✓</span>Flat consultation fee — paid
+                directly to the Law Firm
+              </div>
+              <div class="b1-item">
+                <span class="b1-chk">✓</span>No obligation to proceed to full
+                representation
+              </div>
+              <div class="b1-item">
+                <span class="b1-chk">✓</span>PetitionIQ invoices the Law Firm
+                for case preparation services — not the referral
+              </div>
+              <div class="b1-item">
+                <span class="b1-chk">✓</span>Consultation fee credit toward B2
+                at attorney's discretion
+              </div>
+              <div class="b1-item">
+                <span class="b1-chk">✓</span>Governed by Limited-Scope
+                Consultation Agreement
+              </div>
+            </div>
+          </div>
+          <div class="b1-right">
+            <div class="b1-pl">Consultation Fee</div>
+            <div class="b1-price">
+              Set by Participating Attorney<br /><span
+                style="
+                  font-size: 12px;
+                  font-family: &quot;Inter&quot;, sans-serif;
+                  font-weight: 300;
+                  color: var(--gray-mid);
+                "
+                >Per Schedule A</span
+              >
+            </div>
+            <button
+              class="btn btn-navy"
+              style="margin-top: 16px; width: 100%; justify-content: center"
+              onclick="submitB1Form()"
+            >
+              Connect with an Attorney
+            </button>
+            <a
+              href="#evaluator"
+              class="btn btn-outline"
+              style="
+                margin-top: 10px;
+                width: 100%;
+                justify-content: center;
+                display: inline-flex;
+              "
+              >Complete Stage A First</a
+            >
+            <div class="b1-note">
+              Bring your own attorney? PetitionIQ's tools and services remain
+              available to support your existing counsel directly.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISA TYPES -->
+    <section class="section" id="visa-types" aria-labelledby="visa-h">
+      <div class="container">
+        <div class="sec-hdr center fade-up">
+          <span class="eyebrow">Coverage</span>
+          <div class="gold-rule"></div>
+          <h2 class="h2" id="visa-h">
+            Three of the most complex employment-based categories
+          </h2>
+          <p class="lead">
+            Purpose-built for extraordinary ability and national interest cases
+            — where precision matters most and the cost of an RFE is highest.
+          </p>
+        </div>
+        <div class="visa-grid">
+          <div class="visa-card fade-up d1">
+            <div class="v-top">
+              <div class="v-code">EB-1A</div>
+              <div class="v-name">Alien of Extraordinary Ability</div>
+            </div>
+            <div class="v-body">
+              <p class="v-desc">
+                The highest standard in employment-based immigration. Requires
+                sustained national or international acclaim across a demanding
+                10-criteria framework under 8 CFR § 204.5(h)(3). No job offer or
+                labor certification required.
+              </p>
+              <div class="v-items">
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  Kazarian two-step analysis
+                </div>
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  10-criteria evidence mapping
+                </div>
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  Final Merits Determination support
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="visa-card fade-up d2">
+            <div class="v-top">
+              <div class="v-code">EB-2 NIW</div>
+              <div class="v-name">National Interest Waiver</div>
+            </div>
+            <div class="v-body">
+              <p class="v-desc">
+                Waives job offer and PERM labor certification requirements for
+                individuals whose work is in the national interest of the United
+                States, evaluated under the Matter of Dhanasar (2016)
+                three-prong framework.
+              </p>
+              <div class="v-items">
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  3-prong Dhanasar analysis
+                </div>
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  Proposed endeavor statement support
+                </div>
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  National importance narrative
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="visa-card fade-up d3">
+            <div class="v-top">
+              <div class="v-code">O-1A</div>
+              <div class="v-name">Extraordinary Ability in Business</div>
+            </div>
+            <div class="v-body">
+              <p class="v-desc">
+                Non-immigrant visa for individuals with extraordinary ability in
+                sciences, education, business, or athletics. Evaluated across 8
+                criteria under 8 CFR § 214.2(o) using a dual-lens adjudicator
+                framework.
+              </p>
+              <div class="v-items">
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  8-criteria evaluation framework
+                </div>
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  Dual-lens adjudicator analysis
+                </div>
+                <div class="v-item">
+                  <div class="v-dot"></div>
+                  Intake questionnaire included
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="section sec-gray" id="blog" aria-labelledby="blog-h">
+      <div class="container">
+        <div class="sec-hdr center fade-up">
+          <span class="eyebrow">Insights</span>
+          <div class="gold-rule"></div>
+          <h2 class="h2" id="blog-h">
+            Immigration intelligence from the field
+          </h2>
+          <p class="lead">
+            Written by Khushboo Jain — not summaries of USCIS press releases,
+            but practitioner perspective on what actually moves petitions
+            forward.
+          </p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card fade-up d1">
+            <div class="blog-img">
+              <div class="blog-img-bg" aria-hidden="true"></div>
+              <span class="blog-cat">EB-1A</span>
+              <div class="blog-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="8"
+                    y="8"
+                    width="32"
+                    height="32"
+                    rx="4"
+                    stroke="rgba(197,156,56,0.4)"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M16 20h16M16 26h10"
+                    stroke="rgba(197,156,56,0.6)"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="blog-body">
+              <div class="blog-date">May 2026</div>
+              <h3 class="blog-title">
+                EB-1A Extraordinary Ability: The 10 Criteria USCIS Actually
+                Looks For
+              </h3>
+              <p class="blog-excerpt">
+                Most EB-1A petitions that attract RFEs share a common failure —
+                criteria are checked off without evidence that does the actual
+                work. Here is what adjudicators look for beyond the checklist,
+                and why it matters more than the number of criteria you claim.
+              </p>
+              <a href="blog-eb1a-criteria.html" class="blog-read"
+                >Read Article
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M2 6h8M6 2l4 4-4 4"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+          </article>
+          <article class="blog-card fade-up d2">
+            <div class="blog-img">
+              <div class="blog-img-bg" aria-hidden="true"></div>
+              <span class="blog-cat">EB-1A vs NIW</span>
+              <div class="blog-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <circle
+                    cx="18"
+                    cy="24"
+                    r="10"
+                    stroke="rgba(197,156,56,0.4)"
+                    stroke-width="1.5"
+                  />
+                  <circle
+                    cx="30"
+                    cy="24"
+                    r="10"
+                    stroke="rgba(197,156,56,0.4)"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M24 18v12"
+                    stroke="rgba(197,156,56,0.3)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="blog-body">
+              <div class="blog-date">May 2026</div>
+              <h3 class="blog-title">
+                EB-1A vs EB-2 NIW: Which Employment-Based Path Is Right for Your
+                Profile?
+              </h3>
+              <p class="blog-excerpt">
+                Both pathways offer a route to permanent residence without a job
+                offer. But the evidence standards, processing timelines, and
+                risk profiles are fundamentally different. Choosing the wrong
+                one costs time and money — here is how to think through it
+                before filing.
+              </p>
+              <a href="blog-eb1a-vs-niw.html" class="blog-read"
+                >Read Article
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M2 6h8M6 2l4 4-4 4"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATTORNEY NETWORK -->
+    <section class="section" id="attorneys" aria-labelledby="net-h">
+      <div class="container">
+        <div class="net-grid">
+          <div>
+            <span class="eyebrow">Attorney Network</span>
+            <div class="gold-rule"></div>
+            <h2 class="h2 fade-up" id="net-h">
+              Participating Attorneys. Your choice.
+            </h2>
+            <p
+              class="lead fade-up"
+              style="margin-top: 14px; margin-bottom: 32px"
+            >
+              PetitionIQ can refer you to a Participating Attorney in our
+              independent network. You are never required to use a network
+              attorney. If you have existing counsel, PetitionIQ's tools and
+              services remain available to support them directly.
+            </p>
+            <div class="net-card fade-up d1">
+              <div class="net-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <rect
+                    x="3"
+                    y="4"
+                    width="14"
+                    height="12"
+                    rx="2"
+                    stroke="#C59C38"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M7 8h6M7 11h4"
+                    stroke="#C59C38"
+                    stroke-width="1.3"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="net-title">Independent &amp; Licensed</div>
+                <div class="net-desc">
+                  Every Participating Attorney is independently licensed. They
+                  are not employees or agents of PetitionIQ and exercise
+                  independent professional judgment on all legal matters.
+                </div>
+              </div>
+            </div>
+            <div class="net-card fade-up d2">
+              <div class="net-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M10 3L12 7.5H17L13 10.5L14.5 15L10 12.5L5.5 15L7 10.5L3 7.5H8L10 3Z"
+                    stroke="#C59C38"
+                    stroke-width="1.3"
+                    fill="none"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="net-title">
+                  Familiar with PetitionIQ's Framework
+                </div>
+                <div class="net-desc">
+                  Participating Attorneys have agreed to operate within
+                  PetitionIQ's structured client journey — meaning B1 and B2
+                  engagements follow a defined, transparent process.
+                </div>
+              </div>
+            </div>
+            <div class="net-card fade-up d3">
+              <div class="net-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <circle
+                    cx="10"
+                    cy="10"
+                    r="7"
+                    stroke="#C59C38"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    d="M7 10l2 2 4-4"
+                    stroke="#C59C38"
+                    stroke-width="1.3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="net-title">Bring Your Own Attorney</div>
+                <div class="net-desc">
+                  You are not required to use a Participating Attorney at any
+                  stage. PetitionIQ's evaluation tools and Employment-Based
+                  Immigration Specialist services are available to support your
+                  existing legal counsel directly.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="disc fade-up d2">
+            <div class="disc-title">Referral &amp; Fee Disclosure</div>
+            <div class="disc-sub">
+              PetitionIQ refers users to Participating Attorneys as an
+              administrative service. The following applies to all referrals and
+              fee arrangements.
+            </div>
+            <div class="disc-item">
+              <span class="disc-arr">→</span>Participating Attorneys are
+              independent practitioners. They are not employees, partners, or
+              agents of PetitionIQ.
+            </div>
+            <div class="disc-item">
+              <span class="disc-arr">→</span>PetitionIQ does not receive
+              referral fees or client referral compensation of any kind.
+              PetitionIQ invoices Participating Attorneys directly for case
+              preparation, Employment-Based Immigration Specialist services, and
+              platform access rendered in connection with each engagement.
+            </div>
+            <div class="disc-item">
+              <span class="disc-arr">→</span>Stage B1 consultation fees are paid
+              by the client directly to the Law Firm. PetitionIQ invoices the
+              Law Firm separately for preparation and platform services — not
+              for the referral itself.
+            </div>
+            <div class="disc-item">
+              <span class="disc-arr">→</span>Stage B2 legal fees are paid by the
+              client directly to the Law Firm. PetitionIQ's Employment-Based
+              Immigration Specialist service fee is invoiced to the Law Firm —
+              these are professional service charges, not referral fees, and do
+              not constitute fee-sharing under TDRPC Rule 5.04 or ABA Model Rule
+              5.4.
+            </div>
+            <div class="disc-item">
+              <span class="disc-arr">→</span>PetitionIQ does not guarantee the
+              outcome of any matter. Selection of legal counsel is solely the
+              client's decision.
+            </div>
+            <div class="fee-box">
+              <div class="fee-lbl">Fee Structure Clarification</div>
+              <div class="fee-txt">
+                PetitionIQ is compensated exclusively for professional services
+                — case preparation, Employment-Based Immigration Specialist
+                work, and platform access — rendered directly to Participating
+                Attorneys. PetitionIQ receives no compensation tied to whether a
+                client engages or retains legal counsel.
+              </div>
+            </div>
+            <div class="disc-legal">
+              PetitionIQ is not a law firm and does not practice law. Nothing in
+              this disclosure constitutes legal advice. Use of the referral
+              service does not create an attorney-client relationship with
+              PetitionIQ. Terms of PetitionIQ's agreements with Participating
+              Attorneys are available upon request.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+      <div class="container">
+        <div class="ft-main">
+          <div>
+            <div class="ft-logo">
+              PetitionIQ<span
+                style="color: var(--gold); font-size: 15px; font-style: italic"
+                >.ai</span
+              >
+            </div>
+            <p class="ft-tagline">
+              AI-powered immigration evaluation for EB-1A, EB-2 NIW, and O-1A.
+              Designed by a practitioner. Supervised by attorneys. Proprietary
+              AI technology.
+            </p>
+            <span class="ft-badge"
+              ><svg
+                width="11"
+                height="11"
+                viewBox="0 0 11 11"
+                fill="none"
+                aria-hidden="true"
+              >
+                <circle
+                  cx="5.5"
+                  cy="5.5"
+                  r="4.5"
+                  stroke="#C59C38"
+                  stroke-width="1"
+                />
+                <path
+                  d="M3.5 5.5l1.5 1.5 2.5-2.5"
+                  stroke="#C59C38"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                /></svg
+              >Proprietary AI Technology</span
+            >
+          </div>
+          <div>
+            <p class="fc-ttl">Platform</p>
+            <ul class="fc-links">
+              <li><a href="#evaluator">Free Evaluation (Stage A)</a></li>
+              <li><a href="#b1-consult">Stage B1 Consultation</a></li>
+              <li><a href="#how-it-works">Stage B2 Full Case</a></li>
+              <li><a href="#how-it-works">Stage B3 Services</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="fc-ttl">Resources</p>
+            <ul class="fc-links">
+              <li><a href="#visa-types">EB-1A</a></li>
+              <li><a href="#visa-types">EB-2 NIW</a></li>
+              <li><a href="#visa-types">O-1A</a></li>
+              <li><a href="#blog">Insights &amp; Blog</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="fc-ttl">Legal</p>
+            <ul class="fc-links">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">UPL Acknowledgment</a></li>
+              <li><a href="#">Referral Disclosure</a></li>
+              <li>
+                <a href="mailto:contact@petitioniq.ai">contact@petitioniq.ai</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="ft-bot">
+          <p class="disc-txt">
+            PetitionIQ is not a law firm and does not provide legal advice.
+            Information provided through this platform does not create an
+            attorney-client relationship. Consult a licensed immigration
+            attorney for advice specific to your case. © 2026 PetitionIQ. |
+            Confidential &amp; Privileged.
+          </p>
+          <p class="priv-txt">
+            PRIVACY NOTICE: All information provided through this platform is
+            treated as confidential. PetitionIQ does not sell, share, or
+            disclose client data to third parties except as required to prepare
+            your immigration filing or as required by law. Submission of
+            information through this platform does not establish an
+            attorney-client relationship. Any reliance on this platform is at
+            the user's own risk. PetitionIQ disclaims all warranties, express or
+            implied, regarding accuracy, completeness, or suitability for any
+            particular immigration matter. USCIS and DOS rules change
+            frequently; applicants should verify current requirements before
+            filing.
+          </p>
+          <div class="ft-copy">
+            <span class="copy-txt"
+              >© 2026 PetitionIQ. All rights reserved. Confidential &amp;
+              Privileged.</span
+            >
+            <div class="copy-lnks">
+              <a href="#">Privacy</a><a href="#">Terms</a
+              ><a href="#">Disclaimer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      /* ═══════════ CRITERIA DATA ═══════════ */
+      const CRITERIA = {
+        EB1A: [
+          "Major awards or prizes for excellence in the field",
+          "Membership in associations requiring outstanding achievement",
+          "Published material about the individual in professional publications",
+          "Judging the work of others in the field or a related field",
+          "Original scientific, scholarly, or artistic contributions of major significance",
+          "Scholarly articles authored in professional or major trade journals",
+          "Work displayed at artistic exhibitions or showcases",
+          "Leading or critical role in distinguished organizations",
+          "High salary or remuneration relative to others in the field",
+          "Commercial success in the performing arts",
+        ],
+        NIW: [
+          "Proposed endeavor has substantial merit",
+          "Proposed endeavor is of national importance",
+          "Well positioned to advance the proposed endeavor",
+          "Advanced degree in a field of substantial intrinsic merit",
+          "Exceptional ability demonstrated through sustained achievement",
+          "It would be beneficial to waive the job offer requirement",
+          "Significant contribution to scientific or scholarly research",
+          "Recognition from peers, government entities, or professional bodies",
+        ],
+        O1A: [
+          "Major nationally or internationally recognized award or prize",
+          "Membership in associations requiring extraordinary achievement",
+          "Published material about the individual in professional or major trade publications",
+          "Participation as a judge of others in the field",
+          "Original scientific, scholarly, or business contributions of major significance",
+          "Authorship of scholarly articles in professional journals or major media",
+          "Critical or essential role in a distinguished organization",
+          "High remuneration for services compared to others in the field",
+        ],
+      };
+
+      /* ═══════════ STATE ═══════════ */
+      let step = 0,
+        acks = 0,
+        selected = [];
+      const SK = "piq_eval_v1";
+
+      /* ═══════════ SESSION ═══════════ */
+      function save() {
+        try {
+          sessionStorage.setItem(
+            SK,
+            JSON.stringify({
+              step,
+              vcat: v("v-cat"),
+              field: v("p-field"),
+              deg: v("p-deg"),
+              exp: v("p-exp"),
+              sel: selected,
+            }),
+          );
+        } catch (e) {} // PII excluded from storage
+      }
+      function restore() {
+        try {
+          const d = JSON.parse(sessionStorage.getItem(SK) || "null");
+          if (!d) return;
+          // PII not restored from storage
+          sv("v-cat", d.vcat);
+          sv("p-field", d.field);
+          sv("p-deg", d.deg);
+          sv("p-exp", d.exp);
+          sv("p-sum", d.sum);
+          if (d.visa && d.sel?.length) {
+            populateCrit(d.visa);
+            selected = d.sel;
+            document.querySelectorAll(".crit-cb").forEach((cb, i) => {
+              if (selected.includes(i)) cb.checked = true;
+            });
+          }
+        } catch (e) {}
+      }
+      function v(id) {
+        return (document.getElementById(id)?.value || "").trim();
+      }
+      function sv(id, val) {
+        if (val && document.getElementById(id))
+          document.getElementById(id).value = val;
+      }
+      document.addEventListener("change", save);
+      document.addEventListener("input", save);
+
+      /* ═══════════ STEP NAV ═══════════ */
+      function goStep(n) {
+        if (n === 1) {
+          const errs = val0();
+          if (errs) return;
+          sendLead();
+        }
+        if (n === 2) {
+          const cat = v("v-cat"),
+            field = v("p-field");
+          let ok = true;
+          if (!cat) {
+            showErr("e-visa", "Please select a visa category");
+            ok = false;
+          }
+          if (!field) {
+            showErr("e-field", "Please enter your professional field");
+            ok = false;
+          }
+          if (!ok) return;
+          populateCrit(cat);
+        }
+        setStep(n);
+      }
+      function setStep(n) {
+        document.querySelectorAll(".e-step").forEach((s, i) => {
+          s.classList.remove("active", "done");
+          s.removeAttribute("aria-current");
+          if (i < n) s.classList.add("done");
+          if (i === n) {
+            s.classList.add("active");
+            s.setAttribute("aria-current", "step");
+          }
+        });
+        document.querySelectorAll(".e-panel").forEach((p, i) => {
+          p.classList.remove("active");
+          if (i === n) p.classList.add("active");
+        });
+        step = n;
+        save();
+        window.scrollTo({
+          top: document.getElementById("evaluator").offsetTop - 80,
+          behavior: "smooth",
+        });
+      }
+
+      /* ═══════════ VALIDATION ═══════════ */
+      function showErr(id, msg) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = msg;
+        const inp = el?.previousElementSibling;
+        if (inp) inp.classList.add("err");
+      }
+      function clearErr(id) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = "";
+        const inp = el?.previousElementSibling;
+        if (inp) inp.classList.remove("err");
+      }
+      function val0() {
+        let err = false;
+        ["e-first", "e-last", "e-email"].forEach((id) => clearErr(id));
+        if (!v("c-first")) {
+          showErr("e-first", "First name is required");
+          err = true;
+        }
+        if (!v("c-last")) {
+          showErr("e-last", "Last name is required");
+          err = true;
+        }
+        const email = v("c-email");
+        if (!email) {
+          showErr("e-email", "Email address is required");
+          err = true;
+        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          showErr("e-email", "Please enter a valid email address");
+          err = true;
+        }
+        return err;
+      }
+
+      /* ═══════════ CRITERIA ═══════════ */
+      function populateCrit(cat) {
+        const grid = document.getElementById("crit-grid");
+        selected = [];
+        grid.innerHTML = (CRITERIA[cat] || [])
+          .map(
+            (c, i) => `
+    <label class="crit-lbl">
+      <input type="checkbox" class="crit-cb" id="cr${i}" onchange="toggleCrit(${i},this)">
+      <span class="crit-txt">${c}</span>
+    </label>`,
+          )
+          .join("");
+      }
+      function toggleCrit(idx, el) {
+        if (el.checked) {
+          if (!selected.includes(idx)) selected.push(idx);
+        } else {
+          selected = selected.filter((i) => i !== idx);
+        }
+        save();
+      }
+
+      /* ═══════════ ACKNOWLEDGMENT ═══════════ */
+      function updAck() {
+        acks = document.querySelectorAll(".ack-cb:checked").length;
+        const btn = document.getElementById("btn-submit");
+        const status = document.getElementById("ack-status");
+        const done = acks === 5;
+        btn.disabled = !done;
+        btn.setAttribute("aria-disabled", String(!done));
+        status.textContent = done
+          ? "All 5 acknowledgments completed — evaluation ready"
+          : `${acks} of 5 acknowledgments completed`;
+        btn.textContent = done
+          ? "Run AI Evaluation →"
+          : `Run AI Evaluation — ${5 - acks} Remaining`;
+      }
+
+      /* ═══════════ LEAD CAPTURE → contact@petitioniq.ai ═══════════ */
+      async function sendLead() {
+        try {
+          await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              type: "stage_a_lead",
+              firstName: v("c-first"),
+              lastName: v("c-last"),
+              email: v("c-email"),
+              role: v("c-role"),
+              timestamp: new Date().toISOString(),
+            }),
+          });
+        } catch (e) {
+          /* silent fail — lead capture is non-blocking */
+        }
+      }
+
+      // submitInterest removed — use submitB1Form() / submitResultB1()
+
+      /* ═══════════ RUN EVALUATION ═══════════ */
+      async function runEval() {
+        setStep(4);
+        document.getElementById("loading-state").style.display = "block";
+        document.getElementById("error-state").style.display = "none";
+        document.getElementById("retry-wrap").style.display = "none";
+        document.getElementById("result-wrap").classList.remove("visible");
+        document.getElementById("result-wrap").innerHTML = "";
+
+        const ctrl = new AbortController();
+        const timeout = setTimeout(() => ctrl.abort(), 22000);
+
+        try {
+          const res = await fetch("/api/evaluate", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            signal: ctrl.signal,
+            body: JSON.stringify({
+              visa: v("v-cat"),
+              field: v("p-field"),
+              degree: v("p-deg"),
+              experience: v("p-exp"),
+              summary: v("p-sum"),
+              criteriaIndices: selected,
+              firstName: v("c-first"),
+              lastName: v("c-last"),
+              email: v("c-email"),
+              role: v("c-role"),
+            }),
+          });
+          clearTimeout(timeout);
+          if (!res.ok) {
+            const e = await res
+              .json()
+              .catch(() => ({ error: `Service error (${res.status})` }));
+            throw new Error(e.error || `Status ${res.status}`);
+          }
+          const data = await res.json();
+          if (!data.success || !data.result)
+            throw new Error(data.error || "Unexpected response");
+          renderResults(data.result, v("v-cat"), v("p-field"));
+        } catch (e) {
+          clearTimeout(timeout);
+          document.getElementById("loading-state").style.display = "none";
+          const errEl = document.getElementById("error-state");
+          errEl.style.display = "block";
+          errEl.textContent =
+            e.name === "AbortError"
+              ? "The evaluation took too long. Please try again."
+              : e.message ||
+                "Evaluation service temporarily unavailable. Please try again.";
+          document.getElementById("retry-wrap").style.display = "block";
+        }
+      }
+
+      // Results emailed server-side — no client sendResults needed
+      function renderResults(data, cat, field) {
+        document.getElementById("loading-state").style.display = "none";
+        const sc =
+          data.overallStrength === "Strong Indicators"
+            ? "rs-strong"
+            : data.overallStrength === "Developing Profile"
+              ? "rs-developing"
+              : "rs-prelim";
+        const critHTML = (data.criteriaAssessment || [])
+          .map((c) => {
+            const dc =
+              c.status === "Appears Consistent"
+                ? "d-met"
+                : c.status === "Needs Development"
+                  ? "d-part"
+                  : "d-unk";
+            const sc2 =
+              c.status === "Appears Consistent"
+                ? "s-met"
+                : c.status === "Needs Development"
+                  ? "s-part"
+                  : "s-unk";
+            return `<div class="r-crit"><div class="rc-hdr"><div class="rc-dot ${dc}" aria-hidden="true"></div><span class="rc-name">${c.name}</span><span class="rc-status ${sc2}">${c.status}</span></div><div class="rc-note">${c.note}</div></div>`;
+          })
+          .join("");
+        const consHTML = (data.keyConsiderations || [])
+          .map(
+            (k) =>
+              `<div class="rn-item"><span class="rn-arrow" aria-hidden="true">·</span>${k}</div>`,
+          )
+          .join("");
+        const nextHTML = (data.nextSteps || [])
+          .map(
+            (s) =>
+              `<div class="rn-item"><span class="rn-arrow" aria-hidden="true">→</span>${s}</div>`,
+          )
+          .join("");
+        // UPL acknowledgment logged server-side with server-generated timestamp
+        document.getElementById("result-wrap").innerHTML = `
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:20px;padding-bottom:18px;border-bottom:1px solid var(--gray-bdr);flex-wrap:wrap;gap:12px">
+      <div style="background:var(--green-bg);border:1px solid rgba(30,107,58,.3);border-radius:6px;padding:10px 14px;margin-bottom:14px;font-size:12px;color:#1E4F2A;display:flex;align-items:center;gap:8px" role="status"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M2 6.5l3 3 6-6" stroke="#1E6B3A" stroke-width="1.5" stroke-linecap="round"/></svg>Results sent to your email — check your inbox for a full copy.</div>
+    <div><div style="font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gray-mid);margin-bottom:4px">Stage A — Preliminary AI Assessment · ${new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}</div><div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:600;color:var(--navy)">${cat} · ${field}</div></div>
+      <span class="r-strength ${sc}" role="status">${data.overallStrength}</span>
+    </div>
+    <div style="background:var(--warn-bg);border:1px solid #F0C040;border-radius:var(--r-sm);padding:12px 14px;margin-bottom:18px;font-size:11px;color:#5A4000;line-height:1.65" role="note"><strong>⚠ Important:</strong> This is a preliminary, AI-generated indicator only. It does not constitute legal advice and may not be relied upon for any immigration filing decision. No attorney-client relationship has been created. A licensed immigration attorney must evaluate your actual case before any filing.</div>
+    <p style="font-size:13px;color:var(--gray-dark);line-height:1.7;margin-bottom:18px">${data.strengthNote}</p>
+    ${critHTML ? `<h3 style="font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);margin-bottom:10px">Criteria Indicators</h3><div class="r-grid">${critHTML}</div>` : ""}
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px">
+      <div class="r-next"><div class="rn-ttl">Key Observations</div>${consHTML}</div>
+      <div class="r-next" style="background:var(--gold-pale);border:1px solid rgba(197,156,56,.25)"><div class="rn-ttl" style="color:var(--warn)">Suggested Next Steps</div>${nextHTML}</div>
+    </div>
+    <div style="display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap">
+      <button onclick="window.print()" class="btn btn-outline" style="font-size:11px"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><rect x="2" y="4" width="9" height="7" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M4 4V2.5a.5.5 0 01.5-.5h4a.5.5 0 01.5.5V4" stroke="currentColor" stroke-width="1.3"/></svg>Save / Print</button>
+      <button onclick="restartEval()" class="btn btn-outline" style="font-size:11px"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M2 6.5A4.5 4.5 0 016.5 2M6.5 2L4.5 4M6.5 2l2 2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>New Evaluation</button>
+    </div>
+    <div style="background:var(--navy);border-radius:var(--r-md);padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap">
+      <div><div style="font-size:12px;font-weight:600;color:var(--white);margin-bottom:3px">Ready to speak with a Participating Attorney?</div><div style="font-size:11px;color:rgba(255,255,255,.5)">Stage B1 — Paid strategic consultation. No obligation. PetitionIQ invoices the Law Firm for services — not for this referral.</div></div>
+      <button class="btn btn-gold" style="flex-shrink:0" onclick="submitB1Form()">Connect with an Attorney</button>
+    </div>`;
+        document.getElementById("result-wrap").classList.add("visible");
+      }
+
+      function restartEval() {
+        try {
+          sessionStorage.removeItem(SK);
+        } catch (e) {}
+        selected = [];
+        acks = 0;
+        document
+          .querySelectorAll(".ack-cb")
+          .forEach((cb) => (cb.checked = false));
+        document
+          .querySelectorAll(".f-in,.f-sel,.f-ta")
+          .forEach((el) => (el.value = ""));
+        updAck();
+        setStep(0);
+      }
+
+      /* ═══════════ COOKIE ═══════════ */
+      function setCookie(yes) {
+        try {
+          localStorage.setItem("piq_cookie", yes ? "accepted" : "declined");
+        } catch (e) {}
+        document.getElementById("cookie-bar").style.display = "none";
+        document.body.style.paddingBottom = "0";
+      }
+      (function () {
+        try {
+          const c = localStorage.getItem("piq_cookie");
+          if (c) {
+            document.getElementById("cookie-bar").style.display = "none";
+            return;
+          }
+          document.body.style.paddingBottom = "80px";
+        } catch (e) {}
+      })();
+
+      /* ═══════════ MOBILE NAV ═══════════ */
+      function toggleNav() {
+        const links = document.getElementById("nav-links");
+        const btn = document.getElementById("hamburger");
+        const open = links.style.display === "flex";
+        links.style.cssText = open
+          ? ""
+          : `display:flex;flex-direction:column;position:absolute;top:66px;left:0;right:0;background:rgba(8,26,52,.98);padding:16px 24px 20px`;
+        btn.setAttribute("aria-expanded", String(!open));
+      }
+
+      /* ═══════════ SCROLL OBSERVER ═══════════ */
+      const obs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("visible");
+          });
+        },
+        { threshold: 0.08, rootMargin: "0px 0px -32px 0px" },
+      );
+      document.querySelectorAll(".fade-up").forEach((el) => {
+        obs.observe(el);
+        if (el.closest(".hero")) el.classList.add("visible");
+      });
+
+      /* ═══════════ RESTORE SESSION ═══════════ */
+      restore();
+    </script>
+  </body>
+</html>
