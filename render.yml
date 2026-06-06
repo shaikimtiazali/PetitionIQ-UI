@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: petitioniq-ui
+    env: static
+    buildCommand: ""
+    startCommand: ""
+    staticSiteDir: .
+    domains:
+      - petitioniq.ai  # Update with your desired domain
+    routes:
+      - path: /api/*
+        destination: https://petitioniq-server.onrender.com
