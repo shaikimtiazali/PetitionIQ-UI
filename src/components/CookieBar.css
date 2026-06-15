@@ -1,4 +1,4 @@
-/* ── COOKIE ── */
+/* COOKIE BAR */
 #cookie-bar {
   position: fixed;
   bottom: 0;
@@ -21,6 +21,7 @@
   line-height: 1.6;
   flex: 1;
   min-width: 260px;
+  margin: 0;
 }
 
 #cookie-bar a {

@@ -63,7 +63,7 @@ function Proof() {
             <div className="platform-items">
               {proofs.map((proof, index) => (
                 <div key={index} className="pi">
-                  <div className="pi-icon">🎯</div>
+                  <div className="pi-icon">🧠</div>
                   <div>
                     <h4 className="pi-title">{proof.title}</h4>
                     <p className="pi-desc">{proof.description}</p>

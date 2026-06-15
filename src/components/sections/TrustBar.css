@@ -1,4 +1,4 @@
-/* ── TRUST BAR ── */
+/* TRUST BAR */
 .trust-bar {
   background: var(--gray-bg);
   border-bottom: 1px solid var(--gray-bdr);
@@ -30,6 +30,7 @@
   flex-shrink: 0;
   color: var(--white);
   font-size: 14px;
+  font-weight: bold;
 }
 
 .t-text {
