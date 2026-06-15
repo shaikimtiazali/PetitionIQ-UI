@@ -1,0 +1,246 @@
+/* ═══════════════════════════════════════
+   BRAND TOKENS — PetitionIQ 2026
+═══════════════════════════════════════ */
+:root {
+  --navy: #0f2a4f;
+  --navy-deep: #081a34;
+  --navy-mid: #163860;
+  --gold: #c59c38;
+  --gold-light: #d9b55a;
+  --gold-pale: #f9f0dc;
+  --gray-bg: #f2f4f7;
+  --gray-bdr: #cccccc;
+  --gray-mid: #8a8f99;
+  --gray-dark: #4a4e57;
+  --text: #1a1a1a;
+  --white: #ffffff;
+  --green: #1e6b3a;
+  --green-bg: #eaf5ee;
+  --warn: #7a4f00;
+  --warn-bg: #fff4dc;
+  --sy: 88px;
+  --r-sm: 5px;
+  --r-md: 10px;
+  --r-lg: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(22px, 3vw, 34px);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--navy);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 14px;
+}
+
+.eyebrow-lt {
+  color: var(--gold-light);
+}
+
+.gold-rule {
+  width: 44px;
+  height: 3px;
+  background: var(--gold);
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+.lead {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--gray-dark);
+  line-height: 1.75;
+  max-width: 540px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 13px 26px;
+  border-radius: var(--r-sm);
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-gold {
+  background: var(--gold);
+  color: var(--navy-deep);
+}
+
+.btn-gold:hover {
+  background: var(--gold-light);
+  box-shadow: 0 6px 20px rgba(197, 156, 56, 0.3);
+  transform: translateY(-1px);
+}
+
+.btn-navy {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.btn-navy:hover {
+  background: var(--navy-mid);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--white);
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+}
+
+.btn-ghost:hover {
+  border-color: var(--white);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--navy);
+  border: 1.5px solid var(--navy);
+}
+
+.btn-outline:hover {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.section {
+  padding: var(--sy) 0;
+}
+
+.sec-gray {
+  background: var(--gray-bg);
+}
+
+.sec-navy {
+  background: var(--navy);
+}
+
+.sec-deep {
+  background: var(--navy-deep);
+}
+
+.sec-hdr {
+  margin-bottom: 52px;
+}
+
+.sec-hdr.center {
+  text-align: center;
+}
+
+.sec-hdr.center .gold-rule {
+  margin: 0 auto 24px;
+}
+
+.sec-hdr.center .lead {
+  margin: 14px auto 0;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.d1 {
+  transition-delay: 0.1s;
+}
+
+.d2 {
+  transition-delay: 0.2s;
+}
+
+.d3 {
+  transition-delay: 0.3s;
+}
+
+.d4 {
+  transition-delay: 0.4s;
+}
+
+/* ── SKIP LINK ── */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  left: 12px;
+  top: 12px;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  background: var(--navy);
+  color: var(--white);
+  border-radius: 4px;
+  z-index: 9999;
+  font-size: 13px;
+  font-weight: 600;
+}
