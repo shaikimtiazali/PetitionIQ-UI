@@ -1,0 +1,45 @@
+/* ── TRUST BAR ── */
+.trust-bar {
+  background: var(--gray-bg);
+  border-bottom: 1px solid var(--gray-bdr);
+  padding: 16px 0;
+}
+
+.trust-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.t-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.t-icon {
+  width: 30px;
+  height: 30px;
+  background: var(--navy);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.t-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--navy);
+}
+
+.t-sep {
+  width: 1px;
+  height: 26px;
+  background: var(--gray-bdr);
+}
